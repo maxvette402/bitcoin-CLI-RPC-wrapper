@@ -119,6 +119,8 @@ echo "your_password" | docker secret create bitcoin_rpc_password -
 ```bash
 # Get blockchain information
 python3 bitcoin_cli_wrapper.py getblockchaininfo
+export PYTHONPATH=$PYTHONPATH:./bitcoin-CLI-RPC-wrapper
+python3 src/main_wrapper.py getblockchaininfo
 
 # Get current block count
 python3 bitcoin_cli_wrapper.py getblockcount

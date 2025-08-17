@@ -7,7 +7,7 @@ This document outlines the complete project structure and explains the purpose o
 ```
 bitcoin-CLI-RPC-weapper/
 ├── 📄 bitcoin_cli_wrapper.py          # Main CLI entry point
-├── 📁 lib/                            # Core library modules
+├── 📁 src/                            # Core library modules
 │   ├── 📄 config.py                   # Configuration management
 │   ├── 📄 rpc_client.py               # Bitcoin RPC client
 │   ├── 📄 validators.py               # Input validation & crypto
